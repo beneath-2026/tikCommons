@@ -21,8 +21,14 @@ and all of our custom publish/validation plugins per DCC.
 
 ## Setup
 
-1. Put this folder on a share all machines can reach and select it as the **commons
-   directory** when Tik Manager asks on first launch.
+1. Clone this repo and **make sure the folder is named `commons`** — Tik Manager expects
+   that exact folder name (the GitHub repo is called `tikCommons` only because the name
+   alone would be ambiguous):
+   ```bash
+   git clone https://github.com/beneath-2026/tikCommons.git commons
+   ```
+   Put it on a share all machines can reach and select it as the **commons directory**
+   when Tik Manager asks on first launch.
 2. Copy every `*.example.json` to its real name (e.g. `additional_config.example.json` →
    `additional_config.json`) and fill in the placeholders (`X:\path\to\...`,
    `your-kitsu-server`, `your_project_name`).
