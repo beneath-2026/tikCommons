@@ -1,0 +1,134 @@
+{
+  "empty": {
+    "name": "Empty Project",
+    "path": "",
+    "subs": []
+  },
+  "simple": {
+    "name": "Simple Project",
+    "path": "",
+    "resolution": [2048, 858],
+    "fps": 25,
+    "mode": "global",
+    "subs": []
+  },
+  "asset_only": {
+    "name": "Asset Project",
+    "path": "",
+    "resolution": [2048, 858],
+    "fps": 25,
+    "mode": "asset",
+    "subs": [
+      {
+        "name": "Assets",
+        "path": "Assets",
+
+        "subs": [
+          {
+            "name": "Characters",
+            "path": "Assets/Characters",
+            "subs": []
+          },
+          {
+            "name": "Props",
+            "path": "Assets/Props",
+            "subs": []
+          },
+          {
+            "name": "Environment",
+            "path": "Assets/Environment",
+            "subs": []
+          },
+          {
+            "name": "Vehicles",
+            "path": "Assets/Vehicles",
+            "subs": []
+          }
+        ]
+      }
+    ]
+  },
+  "asset_shot": {
+    "name": "Asset-Shot Project",
+    "path": "",
+    "resolution": [2048, 858],
+    "fps": 25,
+    "mode": "global",
+    "subs": [
+      {
+        "name": "Assets",
+        "path": "Assets",
+        "subs": [
+          {
+            "name": "Characters",
+            "path": "Assets/Characters",
+            "subs": []
+          },
+          {
+            "name": "Props",
+            "path": "Assets/Props",
+            "subs": []
+          },
+          {
+            "name": "Environment",
+            "path": "Assets/Environment",
+            "subs": []
+          },
+          {
+            "name": "Vehicles",
+            "path": "Assets/Vehicles",
+            "subs": []
+          }
+        ]
+      },
+      {
+        "name": "Shots",
+        "path": "Shots",
+        "mode": "shot",
+        "subs": []
+      }
+    ]
+  },
+  "asset_sequence": {
+    "name": "Asset-Sequence Project",
+    "path": "",
+    "resolution": [2048, 858],
+    "fps": 25,
+    "mode": "global",
+    "subs": [
+      {
+        "name": "Assets",
+        "path": "Assets",
+        "mode": "asset",
+        "subs": [
+          {
+            "name": "Characters",
+            "path": "Assets/Characters",
+            "subs": []
+          },
+          {
+            "name": "Props",
+            "path": "Assets/Props",
+            "subs": []
+          },
+          {
+            "name": "Environment",
+            "path": "Assets/Environment",
+            "subs": []
+          },
+          {
+            "name": "Vehicles",
+            "path": "Assets/Vehicles",
+            "subs": []
+          }
+        ]
+      },
+      {
+        "name": "Sequences",
+        "path": "Sequences",
+        "mode": "shot",
+        "subs": []
+      }
+    ]
+  }
+}

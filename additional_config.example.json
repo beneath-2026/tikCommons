@@ -1,0 +1,9 @@
+{
+  "vendor": "X:/path/to/your/python/site-packages",
+  "path": "",
+  "project": "your_project_name",
+  "discordWebhook": "",
+  "renderFolder": {
+    "your_project_name": "X:\\path\\to\\your\\render\\folder"
+  }
+}

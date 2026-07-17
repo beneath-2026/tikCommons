@@ -1,0 +1,141 @@
+{
+    "Model": {
+        "type": "asset",
+        "validations": [
+            "blender_star_publish_collection",
+            "houdini_usd_rop"
+        ],
+        "extracts": [
+            "blender_publish_collections",
+            "blender_render_pal",
+            "houdini_usd_rop"
+        ]
+    },
+    "FX-Sim": {
+        "type": "asset",
+        "validations": [
+            "blender_star_publish_collection",
+            "houdini_usd_rop"
+        ],
+        "extracts": [
+            "blender_publish_collections",
+            "blender_render_pal",
+            "houdini_usd_rop"
+        ]
+    },
+    "LookDev": {
+        "type": "asset",
+        "validations": [
+            "forbidden_nodes",
+            "turtle"
+        ],
+        "extracts": [
+            "archive",
+            "texture_bundle"
+        ]
+    },
+    "Rig": {
+        "type": "asset",
+        "validations": [
+            "forbidden_nodes",
+            "turtle"
+        ],
+        "extracts": [
+            "source"
+        ]
+    },
+    "Animation": {
+        "type": "shot",
+        "validations": [
+            "blender_star_publish_collection",
+            "houdini_usd_rop"
+        ],
+        "extracts": [
+            "blender_publish_collections",
+            "blender_upload_preview_path",
+            "discord_message",
+            "blender_alembic_export",
+            "houdini_usd_rop"
+        ]
+    },
+    "Layout": {
+        "type": "shot",
+        "validations": [
+            "blender_star_publish_collection",
+            "houdini_usd_rop"
+        ],
+        "extracts": [
+            "blender_publish_collections",
+            "discord_message",
+            "blender_upload_preview_path",
+            "houdini_usd_rop"
+        ]
+    },
+    "Lighting": {
+        "type": "shot",
+        "validations": [
+            "forbidden_nodes",
+            "turtle",
+            "houdini_usd_rop"
+        ],
+        "extracts": [
+            "houdini_usd_rop"
+        ]
+    },
+    "FX": {
+        "type": "shot",
+        "validations": [
+            "blender_star_publish_collection",
+            "houdini_usd_rop"
+        ],
+        "extracts": [
+            "blender_publish_collections",
+            "blender_render_pal",
+            "houdini_usd_rop",
+            "blender_alembic_export"
+        ]
+    },
+    "Comp": {
+        "type": "shot",
+        "validations": [],
+        "extracts": [
+            "source",
+            "render"
+        ]
+    },
+    "Blocking": {
+        "type": "",
+        "validations": [
+            "blender_star_publish_collection"
+        ],
+        "extracts": [
+            "blender_publish_collections",
+            "discord_message"
+        ]
+    },
+    "Modeling": {
+        "type": "",
+        "validations": [
+            "blender_star_publish_collection",
+            "houdini_usd_rop"
+        ],
+        "extracts": [
+            "blender_publish_collections",
+            "blender_render_pal",
+            "houdini_usd_rop",
+            "blender_alembic_export"
+        ]
+    },
+    "Shading": {
+        "type": "",
+        "validations": [
+            "blender_star_publish_collection",
+            "houdini_usd_rop"
+        ],
+        "extracts": [
+            "blender_publish_collections",
+            "blender_render_pal",
+            "houdini_usd_rop"
+        ]
+    }
+}

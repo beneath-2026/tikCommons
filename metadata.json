@@ -1,0 +1,86 @@
+{
+    "mode": {
+        "default": "global",
+        "enum": [
+            "global",
+            "asset",
+            "shot"
+        ],
+        "type": "combo"
+    },
+    "colorspace": {
+        "default": "linear",
+        "type": "string"
+    },
+    "resolution": {
+        "default": [
+            2048,
+            858
+        ],
+        "type": "vector2Int"
+    },
+    "pixel_aspect": {
+        "default": 1.0,
+        "type": "float"
+    },
+    "fps": {
+        "default": 24.0,
+        "type": "float"
+    },
+    "start_frame": {
+        "default": 1001,
+        "type": "integer"
+    },
+    "end_frame": {
+        "default": 1100,
+        "type": "integer"
+    },
+    "pre_roll": {
+        "default": 30,
+        "type": "integer"
+    },
+    "post_roll": {
+        "default": 2,
+        "type": "integer"
+    },
+    "pre_handle": {
+        "default": 0,
+        "type": "integer"
+    },
+    "post_handle": {
+        "default": 0,
+        "type": "integer"
+    },
+    "lens": {
+        "default": 50.0,
+        "type": "float"
+    },
+    "camera": {
+        "default": "generic",
+        "type": "string"
+    },
+    "exposure": {
+        "default": 0.0,
+        "type": "float"
+    },
+    "sub_steps": {
+        "default": 1,
+        "type": "integer"
+    },
+    "maya_version": {
+        "default": "",
+        "type": "string"
+    },
+    "houdini_version": {
+        "default": "",
+        "type": "string"
+    },
+    "nuke_version": {
+        "default": "",
+        "type": "string"
+    },
+    "3dsmax_version": {
+        "default": "",
+        "type": "string"
+    }
+}

@@ -1,0 +1,21 @@
+# Real deployment configs - only *.example.json is committed
+additional_config.json
+management_settings.json
+category_definitions.json
+users.json
+user_defaults.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# IDE / OS
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# App junk
+*.clip
+*.blend1

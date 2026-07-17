@@ -1,0 +1,5 @@
+from hamster_render_pal_multiwrite.bootstrap import setupEnvironment
+config = setupEnvironment(__file__)
+
+from hamster_render_pal_multiwrite.extension import RenderPalSubmissionMultiWrite
+RenderPalSubmissionMultiWrite.injectedConfig = config

@@ -1,0 +1,9 @@
+{
+    "sg_url": "",
+    "sg_authentication_method": "User",
+    "sg_script_name": "",
+    "sg_api_key": "",
+    "kitsu_url": "http://your-kitsu-server",
+    "skip_empty_entity_names": true,
+    "commons_id": ""
+}
